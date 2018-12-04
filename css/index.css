@@ -1,0 +1,90 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+a:link,
+a:hover {
+  text-decoration: none;
+}
+body {
+  background-color: #f4f6f8;
+}
+.aside {
+  width: 180px;
+  height: 100%;
+  background-color: #2f4050;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1031;
+}
+.aside .profile {
+  padding: 30px 0 40px;
+  background-color: #243443;
+}
+.aside .profile img {
+  width: 80px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+.aside .profile h4 {
+  display: block;
+  font-size: 16px;
+  color: #a9b0c2;
+  margin-top: 10px;
+}
+.aside .menu {
+  padding-top: 30px;
+}
+.aside .menu .list-unstyled {
+  list-style: none;
+  padding-left: 0px;
+}
+.aside .menu ul a {
+  display: block;
+  line-height: 1;
+  padding: 10px 20px;
+  color: #a9b0c2;
+}
+.aside .menu ul a:hover {
+  background-color: #243443;
+}
+.aside .menu ul ul {
+  display: none;
+}
+.aside .menu li li a {
+  padding-left: 40px;
+}
+.main {
+  padding: 71px 15px 20px;
+  margin-left: 180px;
+}
+.main .navbar {
+  padding-left: 180px;
+  background-color: #fff;
+}
+.main .navbar-default .navbar-nav > li > a {
+  color: green;
+}
+.breadcrumb {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+.breadcrumb li {
+  color: #666;
+}
+.user-list table td {
+  text-align: center;
+}
+.user-list table td a {
+  display: inline-block;
+  width: 36px;
+  height: 22px;
+  border-radius: 3px;
+  color: #fff;
+}
+.user-list table .edit {
+  background-color: #5bc0de;
+}
+.user-list table .del {
+  background-color: #f0ad4e;
+}
